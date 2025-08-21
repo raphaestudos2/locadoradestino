@@ -12,57 +12,6 @@ Sistema completo de locação de veículos com interface moderna e responsiva.
 
 ## 📁 Estrutura de Imagens
 
-Para personalizar as imagens dos veículos, organize os arquivos na seguinte estrutura:
-
-```
-public/
-└── images/
-    └── vehicles/
-        ├── kicks/
-        │   ├── kicks-main.jpg
-        │   ├── kicks-1.jpg
-        │   ├── kicks-2.jpg
-        │   └── kicks-3.jpg
-        ├── tracker/
-        │   ├── tracker-main.jpg
-        │   ├── tracker-1.jpg
-        │   ├── tracker-2.jpg
-        │   └── tracker-3.jpg
-        ├── kardian/
-        │   ├── kardian-main.jpg
-        │   ├── kardian-1.jpg
-        │   ├── kardian-2.jpg
-        │   └── kardian-3.jpg
-        ├── onix-sedan-auto/
-        │   ├── onix-sedan-auto-main.jpg
-        │   ├── onix-sedan-auto-1.jpg
-        │   ├── onix-sedan-auto-2.jpg
-        │   └── onix-sedan-auto-3.jpg
-        ├── cronos-auto/
-        │   ├── cronos-auto-main.jpg
-        │   ├── cronos-auto-1.jpg
-        │   ├── cronos-auto-2.jpg
-        │   └── cronos-auto-3.jpg
-        ├── onix-sedan-manual/
-        │   ├── onix-sedan-manual-main.jpg
-        │   ├── onix-sedan-manual-1.jpg
-        │   ├── onix-sedan-manual-2.jpg
-        │   └── onix-sedan-manual-3.jpg
-        ├── cronos-manual/
-        │   ├── cronos-manual-main.jpg
-        │   ├── cronos-manual-1.jpg
-        │   ├── cronos-manual-2.jpg
-        │   └── cronos-manual-3.jpg
-        ├── onix-hatch/
-        │   ├── onix-hatch-main.jpg
-        │   ├── onix-hatch-1.jpg
-        │   ├── onix-hatch-2.jpg
-        │   └── onix-hatch-3.jpg
-        └── polo-track/
-            ├── polo-track-main.jpg
-            ├── polo-track-1.jpg
-            ├── polo-track-2.jpg
-            └── polo-track-3.jpg
 ```
 
 ## 📍 Locais de Retirada
@@ -120,14 +69,6 @@ Para funcionalidades administrativas completas, configure o Supabase:
 3. Crie os usuários administrativos no Supabase Auth Dashboard:
    - admin@locadoradestino.com.br (senha: 123456@)
    - sergio@locadoradestino.com.br (senha: 123456@)
-
-### Acessos Administrativos
-
-Após configurar o Supabase, você pode acessar o painel administrativo em `/admin` com:
-
-- **Administrador Principal**: admin@locadoradestino.com.br
-- **Sergio**: sergio@locadoradestino.com.br
-- **Senha**: 123456@
 
 ### Sem Banco de Dados
 O sistema funciona com dados estáticos para demonstração, mas as funcionalidades administrativas requerem Supabase.
