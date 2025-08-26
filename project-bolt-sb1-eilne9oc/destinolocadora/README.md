@@ -22,28 +22,12 @@ cd locadora-destino
 npm install
 ```
 
-3. **Execute as migrações do banco:**
-   - Acesse seu [Dashboard Supabase](https://supabase.com/dashboard)
-   - Vá em **SQL Editor**
-   - Execute os arquivos na ordem:
-     1. `supabase/migrations/create_exec_sql_function.sql`
-     2. `supabase/migrations/create_base_schema.sql`
-     3. `supabase/migrations/insert_sample_data.sql`
 
 4. **Inicie o sistema:**
 ```bash
 npm run dev
 ```
 
-5. **Acesse o sistema:**
-   - **Frontend:** `http://localhost:5173`
-   - **Admin:** `http://localhost:5173/admin`
-
-### 🔑 Credenciais de Acesso
-
-**Administradores:**
-- 👤 `admin@locadoradestino.com.br` | `123456@`
-- 👤 `sergio@locadoradestino.com.br` | `Padrao007@0`
 
 ## 🗄️ Estrutura do Banco
 
